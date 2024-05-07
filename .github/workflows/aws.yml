@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: jakejarvis/s3-sync-action@master
       with:
-        args: --follow-symlinks --delete --exclude '*' --include '*.html' --no-acl
+        args: --follow-symlinks --delete --exclude '*' --include '*.html'
       env:
         AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
