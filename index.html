@@ -4,62 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Under Construction</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 50px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            color: #666;
-        }
-
-        .notice, .contact-form {
-            background-color: #fff;
-            color: #333;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        input, textarea {
-            width: 90%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link href="/Users/elisecarlson/coding/LouisTiches/scss/custom.scss" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/Users/elisecarlson/coding/LouisTiches/main.css"> -->
 </head>
 <body>
-    <h1>Website Under Construction...</h1>
+        <!-- START NAVBAR -->
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
+                <a href="" class="navbar-brand mb-0 h1">
+                    <img class="d-inline-block align-top" id="logo" src="hallastechimages/Hallas-vosb-logo.jpeg" width="160" height="30">
+                </a>
+                <a href="" class="navbar" id="navSDG" style="color: white">Hallas Tech</a>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="" class="nav-link active">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active contact" href="/Users/elisecarlson/coding/LouisTiches/contact.html" target="_blank">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item active">
+                            <form action="" class="d-flex">
+                                <input type="text" class="form-control me-2">
+                                <button type="submit" class="btn btn-outline-light">Search</button>
+                            </form>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+
+    <h1>Website Under Construction</h1>
     <p>We are currently working on a new and exciting website. Stay tuned!</p>
     <div class="notice">
         <p>Thank you for your patience. If you need to, you can always contact us at:</p>
         <p>Email: <a href="mailto:contact@hallastech.com">contact@hallastech.com</a></p>
         <p>Phone: +1 301 667 0424</p>
     </div>
-    <div class="contact-form">
+    <!-- <div class="contact-form">
         <h2>Contact Us</h2>
         <form action="https://YOUR_API_ID.execute-api.YOUR_REGION.amazonaws.com/prod/submit-form" method="post">
             <input type="text" name="name" placeholder="Your name" required>
@@ -67,6 +57,14 @@
             <textarea name="message" placeholder="Your message" rows="4" required></textarea>
             <input type="submit" value="Send">
         </form>
-    </div>
+    </div> -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
