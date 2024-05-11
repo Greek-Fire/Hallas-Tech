@@ -20,14 +20,34 @@
             color: #666;
         }
 
-        .notice {
-            background-color: #fff3cd;
-            color: #856404;
-            border: 1px solid #ffeeba;
+        .notice, .contact-form {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ddd;
             padding: 20px;
             margin: 20px 0;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -36,8 +56,17 @@
     <p>We are currently working on a new and exciting website. Stay tuned!</p>
     <div class="notice">
         <p>Thank you for your patience. If you need to, you can always contact us at:</p>
-        <p>Email: <a href="ltiches@hallastech.com">contact@hallastech.com</a></p>
+        <p>Email: <a href="mailto:contact@hallastech.com">contact@hallastech.com</a></p>
         <p>Phone: +1 301 667 0424</p>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="https://YOUR_API_ID.execute-api.YOUR_REGION.amazonaws.com/prod/submit-form" method="post">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+            <input type="submit" value="Send">
+        </form>
     </div>
 </body>
 </html>
