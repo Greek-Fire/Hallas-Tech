@@ -5,42 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="/Users/elisecarlson/coding/LouisTiches/scss/custom.scss">
-    <title>Hallas Tech Contact</title>
+    <link rel="stylesheet" href="/Hallas-Tech/main.css">
+    <title>Contact Hallas Tech</title>
 </head>
 <body>
-    <div class="container mt-5">
-        <h1>contact form</h1>
-        <form class="row g-3">
-            <div class="col-md-6">
-                <label for="firstName" class="form-label">
-                    First Name
-                </label>
-                <input type="text" class="form-control" id="firstName" required>
-            </div>
-            <div class="col-md-6">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" required>
-            </div>
-            <div class="col-md-8">
-                <label for="emailInfo" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="emailInfo" required>
-            </div>
-            <div class="col-md-4">
-                <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555">
-            </div>
-            <div class="col-md-12">
-                <label for="comments" class="form-label">Message Box</label>
-                <textarea class="form-control" id="comments" row="3" required></textarea>
-            </div>
-            <div class="col-md-12">
-                <button type="submit" class="btn btn-primary">Send</button>
-            </div>
-        </form>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
+            <a href="/Hallas-Tech/index.html" class="navbar-brand mb-0 h1">
+                <img class="d-sm-inline-block align-top d-none logo" src="hallastechimages/Hallas-vosb-logo.jpeg" width="160" height="30">
+            </a>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- START OF BACKGROUND IMAGE & CONTACT FORM -->
+    <div class="masthead image-blurred-edge" style="background-image: url(/Hallas-Tech/whiteweb.png);">
+        <div class="d-flex justify-content-center align-items-center">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="container mt-5">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">
+                        First Name   *
+                    </label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name   *</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">E-mail   *</label>
+                    <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####">
+                </div>
+                <div class="col-md-12">
+                    <label for="comments" class="form-label">Message Box  *</label>
+                    <textarea class="form-control" id="comments" row="5" required></textarea>
+                </div>
+                <div class="col">
+                    <p>* indicates required field</p>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-danger">Send</button>
+                </div>
+            </form>
+        </div>
     </div>
-
-
+ <!-- END OF BACKGROUND IMAGE & CONTACT FORM -->
+    <div class="container-fluid">
+        <div class="row" style="height: 3rem;">
+            <div class="col" style="width: 100%;"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row contact-info">
+            <div class="col d-flex justify-content-center align-items-center" style="color: crimson;">
+                <h1>Or find us via the following options: </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 d-flex">
+                <p>Phone: ###-###-####</p>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <Address>
+                    Hallas Tech, LLC
+                    123 Somewhere st. 
+                    City, State ##### 
+                </Address>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
