@@ -1,0 +1,38 @@
+/* START OF CAROUSEL */
+.carousel-item img {
+    height: 500px;
+}
+.sr-only, #carouselWorks > ol > li {
+  display: none;
+}
+.mission {
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.mission > .mission-statement, .mission-text {
+    text-align: center;
+    color: black !important;
+}
+.images-container {
+    padding-bottom: 10rem;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 8px lightgrey;
+}
+@media (max-width: 575px) {
+    .img-fluid {
+        display: none;
+    }
+  }
+.carousel-inner > .carousel-item {
+    max-width: 1300;
+    max-height: 700px;
+  }
+.carousel-item > img {
+    object-fit: cover;
+}
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1 !important;
+}

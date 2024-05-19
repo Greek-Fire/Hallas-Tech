@@ -147,6 +147,17 @@
     padding-top: 3rem;
   }
 
+  .backgroundImg {
+    background-image: url("hallastechimages/womanTech.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+  .bg-text {
+    color: white;
+  }
+
   /* START OF MEDIA QUERY SELECTORS FOR SCREEN WIDTH*/
   @media(min-width: 992px) {
     .masthead > .align-items-center > .btn {
@@ -159,6 +170,9 @@
     }
     button.btn {
       margin-bottom: -12px;
+    }
+    .dropdown > button.btn {
+      margin-left: -0.9rem;
     }
   }
   /* END OF MEDIA QUERY SELECTORS FOR SCREEN WIDTH */
@@ -192,6 +206,20 @@
     color: white;
     text-decoration: none;
   }
+
+  /* START: FOOTER */
+  #footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 10rem;
+    justify-content: center;
+
+}
+#footer > .footer-row > .footer-col > a {
+    color: white;
+    text-decoration: none;
+    
+}
+  /* END: FOOTER */
 
 }
 /* *** END OF CUSTOM CSS *** */
