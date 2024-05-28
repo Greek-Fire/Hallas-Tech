@@ -8,191 +8,109 @@
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
-        <!-- START NAVBAR -->
-        <nav class="navbar navbar-dark navbar-expand-lg">
-            <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
-                <a href="" class="navbar-brand mb-0 h1">
-                    <img class="d-sm-inline-block align-top d-none logo" src="hallastechimages/Hallas-vosb-logo.jpeg" width="160" height="30">
-                </a>
-                <button class="navbar-toggler collapse d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="toggler-icon top-bar"></span>
-                    <span class="toggler-icon middle-bar"></span>
-                    <span class="toggler-icon bottom-bar"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item active">
-                            <div class="dropdown">
-                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Services
-                                </button>
-                                <ul class="dropdown-menu">
-                                  <li id="service-one"><a class="dropdown-item" href="services.html">Service One</a></li>
-                                  <li id="service-two"><a class="dropdown-item" href="services.html">Service Two</a></li>
-                                  <li id="service-three"><a class="dropdown-item" href="services.html">Service Three</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link active contact" href="contact.html" target="_blank">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- END NAVBAR -->
-
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler btn navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html/#services-one">Service One</a></li>
+                            <li><a class="dropdown-item" href="services.html/#services-two">Service Two</a></li>
+                            <li><a class="dropdown-item" href="services.html/#services-three">Service Three</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- ADD LINK FOR PDF -->
+                        <a class="nav-link" id="download" href="" download>Download PDF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact" target="_blank" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
     <!-- START 1ST BACKGROUND IMG -->
-    <div class="masthead" style="background-image: url(hallastechimages/redGlobe.png);">
-        <div class="d-flex justify-content-left align-top">
-            <h1 style="font-size: calc(4rem + 3vw);">Hallas Tech</h1>
+    <div class="masthead bg-image" >
+        <div class="container">
+            <div class="d-flex justify-content-left align-top">
+                <h1 class="h1">Hallas Tech</h1>
+            </div>
+            <div class="d-flex justify-content-left">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            </div>
+            <div class="d-flex justify-content-start align-items-center">
+                <a href="contact.html" class="btn btn-light" target="_blank">Contact Us</a>
+            </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-        </div>
-        <div class="d-flex justify-content-center align-items-center">
-            <button class="btn btn-danger" type="button"><a href="contact.html" class="active contact" target="_blank">Contact Us</a></button>
-        </div>
+        
     </div>
     <!-- END 1ST BACKGROUND IMG -->
+
     <!-- START: CONTENTS SECTION OF HOME PAGE -->
     <div class="section" id="section-one">
-        <div class="container dev">
-            <div class="row flex-grow-1 dev-row">
-                <div id="section-one-h1" class="col dev-col contents-section-h1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
                     <h1>Mission statement or something else important here.</h1>
-                </div>
-            </div>
-            <div class="row flex-grow-1 dev-row">
-                <div class="col dev-col">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero nulla ipsa saepe aut dignissimos voluptas labore reprehenderit optio quibusdam tenetur maiores, alias, officiis inventore magni illum at. Placeat, in.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container dev">
-            <div class="row dev" style="height: 3rem;">
-                <div class="col dev" style="width: 100%;"></div>
-            </div>
-        </div>
-        <div class="container dev">
-            <div class="row dev">
-                <div class="col dev">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad modi, aliquid nam culpa, tempore alias dolor eos rerum accusamus beatae libero rem sit. Consequuntur beatae impedit, obcaecati sequi dolores explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia in sed odio voluptates? Distinctio debitis commodi, ipsum ducimus voluptatem, doloremque sunt, totam asperiores eveniet alias esse velit assumenda expedita reiciendis.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section" id="section-two">
-        <div class="container dev">
-            <div class="row flex-grow-1 dev-row">
-                <div id="section-two-h1" class="col dev-col contents-section-h1">
-                    <h1> Second section with another important statement here.</h1>
-                </div>
-            </div>
-            <div class="row flex-grow-1 dev-row">
-                <div class="col dev-col">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero nulla ipsa saepe aut dignissimos voluptas labore reprehenderit optio quibusdam tenetur maiores, alias, officiis inventore magni illum at. Placeat, in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vel culpa rem minima pariatur provident recusandae accusamus possimus quod explicabo ullam ipsam aperiam quam qui nesciunt, praesentium placeat officia inventore.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container dev">
-            <div class="row dev" style="height: 3rem;">
-                <div class="col dev" style="width: 100%;"></div>
-            </div>
-        </div>
-        <div class="container dev">
-            <div class="row dev">
-                <div class="col dev">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad modi, aliquid nam culpa, tempore alias dolor eos rerum accusamus beatae libero rem sit. Consequuntur beatae impedit, obcaecati sequi dolores explicabo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam ab aut exercitationem earum nemo officia eius distinctio excepturi amet? Aut error delectus consequatur natus nobis aliquam officiis laudantium sit tempore.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- START 2ND BACKGROUND IMG -->
-    <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
-        <div class="bg-image backgroundImg" style="background-image: url(hallastechimages/womanTech.png); height: 80vh;" alt="image of woman holding a computer">
-            <div class="d-flex justify-content-center align-items-center">
-                <h2 class="bg-text">Lorem ipsum dolor sit amet consectetur.</h2>
+    <div class="container-fluid p-0">
+        <div class="bg-image" style="background-image: url('hallastechimages/redGlobe.png'); height: 80vh;">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-danger ">Lorem ipsum dolor sit amet consectetur.</h2>
+                <!-- ADD LINK FOR PDF -->
+                <button type="button" href="" download class="btn btn-outline-danger download-pdf">Download Information</button>
             </div>
         </div>
     </div>
     <!-- END 2ND BACKGROUND IMG -->
-    <div class="section" id="section-three">
-        <div class="container dev">
-            <div class="row flex-grow-1 dev-row">
-                <div id="section-three-h1" class="col dev-col contents-section-h1">
-                    <h1>Third section with an important statement here.</h1>
-                </div>
-            </div>
-            <div class="row flex-grow-1 dev-row">
-                <div class="col dev-col">
+
+    <div class="section" id="section-two">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Second section with an important statement here.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero nulla ipsa saepe aut dignissimos voluptas labore reprehenderit optio quibusdam tenetur maiores, alias, officiis inventore magni illum at. Placeat, in. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nesciunt vero eum optio voluptates! Eligendi repellendus soluta magnam sit reiciendis provident rerum porro quibusdam quam nam? Sit totam tenetur expedita!</p>
                 </div>
             </div>
         </div>
-        <div class="container dev">
-            <div class="row dev" style="height: 3rem;">
-                <div class="col dev" style="width: 100%;"></div>
-            </div>
-        </div>
-        <div class="container dev">
-            <div class="row dev">
-                <div class="col dev">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad modi, aliquid nam culpa, tempore alias dolor eos rerum accusamus beatae libero rem sit. Consequuntur beatae impedit, obcaecati sequi dolores explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum, ea officiis ab architecto adipisci molestiae quas dicta repellat minus eius necessitatibus reiciendis numquam repellendus. Nihil eveniet fugit veritatis quasi.</p>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- START 3RD BACKGROUND IMG -->
-    <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
-        <div class="bg-image backgroundImg" style="background-image: url(hallastechimages/Cloud.png); height: 80vh;" alt="the cloud">
-            <div class="d-flex justify-content-center align-items-center">
-                <h2 class="bg-text">Lorem ipsum dolor sit amet consectetur.</h2>
-            </div>
-        </div>
-    </div>
-    <!-- END 3RD BACKGROUND IMG -->
 
-
-
-  <!-- END: CONTENTS SECTION OF HOME PAGE -->
-
-    <!-- <div class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="https://YOUR_API_ID.execute-api.YOUR_REGION.amazonaws.com/prod/submit-form" method="post">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Your email" required>
-            <textarea name="message" placeholder="Your message" rows="4" required></textarea>
-            <input type="submit" value="Send">
-        </form>
-    </div> -->
     <!-- START FOOTER -->
-    <div id="footer" class="container-fluid d-flex">
-        <div class="row footer-row" style="width: 100%;">
-            <div class="col-lg-3 footer-col">
-                <a href="index.html">Hallas Tech</a>
+    <footer class="container-fluid d-flex justify-content-center bg-light text-danger py-3">
+        <div class="row w-100">
+            <div class="col-lg-3 text-center">
+                <a href="index.html" class="text-danger text-decoration-none">Hallas Tech</a>
             </div>
-            <div class="col-lg-4 footer-col" id="footer-email">
-                <a href="contact.html">Contact Us</a>
+            <div class="col-lg-4 text-center">
+                <a href="contact.html" class="text-danger text-decoration-none">Contact Us</a>
             </div>
-            <div class="col-lg-4 footer-col">
-                <a href="https://maps.app.goo.gl/vynHvyrEkDV3PpTN9" rel="noreferrer noopener" id="address" target="_blank">123 Street City, State</a>
+            <div class="col-lg-4 text-center">
+                <a href="https://maps.app.goo.gl/vynHvyrEkDV3PpTN9" class="text-danger text-decoration-none" target="_blank" rel="noopener noreferrer">123 Street City, State</a>
             </div>
         </div>
-    </div>
+    </footer>
     <!-- END FOOTER -->
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
