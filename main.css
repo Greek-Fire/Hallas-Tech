@@ -51,6 +51,42 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   text-align: center;
   margin-bottom: 3rem;
 }
+.img-fluid, .img-thumbnail {
+  width: 100%;
+  width: 100% \9;
+  height: auto;
+  border: none;
+}
+@media screen and (min-width: 992px) {
+  .img-fluid, .img-thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 23px;
+  }
+}
+@media screen and (max-width: 991.98px) and (min-width: 768px) {
+  .img-fluid, .img-thumbnail, .icons-container > .row>* {
+    max-width: 70px;
+    width: 70px;
+    max-height: 70px;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .img-fluid, .img-thumbnail, .icons-container > .row>* {
+    max-width: 40px;
+    width: 40px;
+    max-height: 40px;
+  }
+}
+#row-2-icons, #row-3-icons, #row-4-icons {
+  margin-top: 2rem;
+}
+#row-1-icons {
+  margin-top: 4rem;
+}
+
+
 
 /* .backgroundImg {
   background-image: url("hallastechimages/womanTech.png");
