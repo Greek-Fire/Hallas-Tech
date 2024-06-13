@@ -74,8 +74,6 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
 }
 .masthead2-message {
   padding-top: 4rem;
- 
-
 }
 .masthead3 {
   background-image: url('hallastechimages/red.png'); 
@@ -122,6 +120,9 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
     width: 100px;
     max-height: 100px;
   }
+  .footer > .d-flex {
+    flex-wrap: nowrap;
+  }
 }
 /* @media screen and (max-width: 767.98px) {} */
 #row-2-icons, #row-3-icons, #row-4-icons {
@@ -133,6 +134,7 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
 footer {
   bottom: 0;
   position: fixed;
+  height: 4rem;
 }
 .logo-img {
   width: 10rem;
